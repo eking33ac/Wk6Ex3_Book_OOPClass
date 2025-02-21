@@ -28,6 +28,10 @@ namespace Wk6Ex3_Book_OOPClass
 
             // display the details for book 2
             book2.ShowBookInfo();
+
+
+            // pause at the end of the program for user to read
+            Console.ReadLine();
         }
     }
 
