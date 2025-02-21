@@ -15,12 +15,12 @@ namespace Wk6Ex3_Book_OOPClass
             // Have a method within the class to display Book information.
             // Create two books (objects of the Book class) and display their information.
 
+            
             // Initialize the first book. Set the title to Harriet Porter, set the author to K. L. Growling, set the genre to children's fantasy, and set the price to 12
             Book book1 = new Book("Harriet Porter", "K. L. Growling", "Children's Fantasy", 12);
 
             // Initialize the second book. Set the title to Lady Valentina's Palace, set the author to Lady Valentina, set the genre to YA Sci-Fi, and set the price to 18.93
             Book book2 = new Book("Lady Valentina's Palace", "Lady Valentina", "YA Sci-Fi", 18.93);
-
 
 
             // display the details for book 1
@@ -70,6 +70,4 @@ namespace Wk6Ex3_Book_OOPClass
                 $"Price: {Price:C2}\n");       // output the Book's price in USD money format. End with a line break for readability
         }
     }
-
-
 }
